@@ -1,11 +1,11 @@
 <h1>Contact Project</h1>
-   <p> a Laravel (7.x)project with the following:
+   <pre> a Laravel (7.x)project with the following:
     -Use modules and create 2 modules [admin, contact_us]
     -Create a page for contact us and sending contact email by Mailable
     -In the admin create 2 pages:
     1-Page for setting contact page info
     2-Display all the contact emails info that has been sent
-   </p>
+   </pre>
 <h1> Requirements </h1>
    <p> Laravel 7.x </p>
 <h1> How to run </h1> 

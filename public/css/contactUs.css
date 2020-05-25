@@ -1,0 +1,79 @@
+#wrapper{
+    border:1px solid gray;
+    width:600px;
+    height:530px;
+    margin:0 auto;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.75) 4px 4px 29px 0px;
+}
+#contactHeader{
+    text-align:center;
+    font-family: 'Times New Roman';
+    color:#2277b3;
+    margin-top:20px;
+}
+#contactForm{
+    width:500px;
+    margin-top:40px;
+    font-family: 'Times New Roman';
+}
+body{
+    background-image:linear-gradient(to right, #380796 , #a4c3f3bf);
+
+}
+span i{
+    color:#2277b3;
+    font-size: 2em;
+}
+h1{
+    color: white;
+    font-weight: 700;
+    font-family: 'Times New Roman';
+    text-align: center;
+    margin-bottom: 50px !important;
+}
+pre{
+    text-align: center;
+    font-size: medium;
+}
+#contactWaysHeader{
+    color: #084773;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+    text-align: center;
+}
+ul li{
+    list-style-type: none;
+}
+#contactWays{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+p{
+    font-family: 'Times New Roman';
+    font-size: medium;
+}
+.social{
+    margin-right: 10px;
+}
+.social i{
+    color: black;
+}
+#socialIcons{
+    margin-top: 30px;
+    text-align: center;
+}
+#AddContact{
+    border:1px solid gray;
+    width:600px;
+    height:400px;
+    margin:30px auto;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.75) 4px 4px 29px 0px;
+}
+.message
+{
+    margin-bottom:5px;
+    width:600px;
+    margin-left:375px;
+}

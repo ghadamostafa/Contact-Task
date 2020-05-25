@@ -1,0 +1,21 @@
+h1{
+    font-weight: 700;
+    font-family: 'Times New Roman';
+    color: white;
+    text-align: center;
+}
+#emails{
+    margin: 40px auto;
+    width: 800px;
+}
+body{
+    background-image:linear-gradient(to right, #380796 , #a4c3f3bf);
+
+}
+table{
+    background-color: white;
+}
+.Message
+{
+    width:50%;
+}

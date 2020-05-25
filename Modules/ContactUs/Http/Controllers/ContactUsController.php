@@ -59,8 +59,9 @@ class ContactUsController extends Controller
     public function store(ContactUsRequest $request)
     {
         $validated = $request->validated();
-        $details=['title' => 'Message from Contact us page','body' =>$request->message,'name' =>$request->name];
-        \Mail::to($request->email)->send(new \App\Mail\ContactMail($details));
+        $email='ghadamostafa28@gmail.com';
+        $details=['title' => 'Message from Contact us page','body' =>$request->message,'name' =>$request->name,'email' =>$request->email];
+        \Mail::to($email)->send(new \App\Mail\ContactMail($details));
         if(count(\Mail::failures()) > 0){
             return back()->with('error', 'Failed to send message, please try again');
         }

@@ -29,7 +29,8 @@ class ContactMail extends Mailable
      */
     public function build()
     {
+        $email='test.laravel77@gmail.com';
         $this->subject('Message from Contact us page');
-        return $this->from('test.laravel77@gmail.com')->view('contactus::emails.ContactMail');
+        return $this->from($email)->view('contactus::emails.ContactMail');
     }
 }

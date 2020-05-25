@@ -60,26 +60,31 @@
             <h2 id="contactWaysHeader">Other ways to contact</h2>
             <div id="contactWays">
                 <ul>
-                    <li> 
-                        <div class="row">
-                            <div class="col-1"> <i class="fa fa-envelope fa-sm fa-fw"> </i> </div>
-                            <div class="col">
-                                @foreach($email_contacts as $email)
-                                    <div> <p> {{ $email['email'] }} </p></div>
-                                @endforeach
+                    @if(count($email_contacts)>0)
+                        <li> 
+                            <div class="row">
+                                <div class="col-1"> <i class="fa fa-envelope fa-sm fa-fw"> </i> </div>
+                                <div class="col">
+                                    @foreach($email_contacts as $email)
+                                        <div> <p> {{ $email['email'] }} </p></div>
+                                    @endforeach
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li> 
-                        <div class="row">
-                            <div class="col-1"> <i class="fa fa-phone fa-sm fa-fw"> </i> </div>
-                            <div class="col">
-                                @foreach($phone_contacts as $phone)
-                                <div> <p> {{$phone['phone'] }} </p> </div>
-                                @endforeach
+                        </li>
+                    @endif
+                    @if( count($phone_contacts)>0 )
+                        <li> 
+                            <div class="row">
+                                <div class="col-1"> <i class="fa fa-phone fa-sm fa-fw"> </i> </div>
+                                <div class="col">
+                                    @foreach($phone_contacts as $phone)
+                                    <div> <p> {{$phone['phone'] }} </p> </div>
+                                    @endforeach
+                                </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                    @endif
+                    @if(count($address_contacts)>0 )
                     <li> 
                         <div class="row">
                             <div class="col-1"> <i class="fa fa-home fa-sm fa-fw"> </i> </div>
@@ -90,6 +95,7 @@
                             </div>
                         </div>
                     </li>
+                    @endif
                 </ul>
             </div>
             <div id="socialIcons">

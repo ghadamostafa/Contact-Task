@@ -7,6 +7,11 @@
 </head>
 <body>
     <h1>{{ $details['title'] }}</h1>
-    <p>{{ $details['body'] }}</p>
+    <pre>
+        You have got a message from {{ $details['name'] }} 
+        The sender email: {{ $details['email'] }}
+        The sender message : {{ $details['body'] }}
+    </pre>
+
 </body>
 </html>

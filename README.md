@@ -8,7 +8,7 @@
    </p>
 <h1> Requirements </h1>
    <p> Laravel 7.x </p>
-</h1> How to run </h1> 
+<h1> How to run </h1> 
 <ul>
 <li> Run composer install on your cmd or terminal. </li>
 <li> Rename .env.example file to .env on the root folder. </li>

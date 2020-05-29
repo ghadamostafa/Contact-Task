@@ -1,4 +1,4 @@
-<h1>Contact Project</h1>
+<h1>Contact Task</h1>
    <pre> a Laravel (7.x)project with the following:
     -Use modules and create 2 modules [admin, contact_us]
     -Create a page for contact us and sending contact email by Mailable
